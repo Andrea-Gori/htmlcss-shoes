@@ -3,3 +3,44 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: sans-serif;
+}
+
+[class^="bg-"]{
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+
+.bg-red {
+  background-color: red;
+  background-image: url(../img/01.png);
+}
+
+.bg-green {
+  background-color: green;
+  background-image: url(../img/02.png);
+}
+
+.bg-yellow {
+  background-color: yellow;
+  background-image: url(../img/03.png);
+}
+
+.text {
+  font-size: 60px;
+  color: yellow;
+  font-weight: bolder;
+  text-align: center;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50% , 0);
+}
+
+.text-green {
+  color: green;
+}
